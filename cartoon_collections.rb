@@ -27,7 +27,7 @@ end
 
 
 def starts_with_b(words)
-  words.any? do |word| 
+  words.select do |word| 
     word[0] == "b"
   end
 end
