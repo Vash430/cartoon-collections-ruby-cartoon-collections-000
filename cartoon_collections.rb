@@ -24,3 +24,12 @@ def find_the_cheese(cheese)# code an argument here
     cheese_types.include?(cheese_type)
   end
 end
+
+
+def starts_with_b(words)
+  words.any? do |word| 
+    word[0] == "b"
+  end
+end
+
+puts starts_with_b(["albert","bob", "carl"]) 
